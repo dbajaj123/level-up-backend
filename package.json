@@ -1,0 +1,17 @@
+{
+  "name": "level-up-backend",
+  "version": "1.0.0",
+  "description": "Level Up Leaderboard Backend API",
+  "main": "api/leaderboard.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "@vercel/blob": "^0.23.0"
+  },
+  "keywords": ["leaderboard", "api", "vercel"],
+  "author": "",
+  "license": "MIT"
+}
